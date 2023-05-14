@@ -1,0 +1,15 @@
+.background {
+    background-image: url('../../../assets/portFolio.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: calc(100vw - 18px);;
+  }
+
+  .mat-dark-theme {
+    background-color: #303030; /* set the dark theme background color */
+    color: #fff; /* set the dark theme text color */
+  }
+  
+  .spacer {
+    flex: 1 1 auto;
+  } 

@@ -1,0 +1,23 @@
+<div class="mat-dark-theme">
+<mat-toolbar class="text-center">
+    <span><img src="../../../assets/My project-1.png" alt="MP" style="width: 60px;"></span>
+    <span class="spacer"></span>
+    <button mat-button>Home</button>
+    <button mat-button>About</button>
+    <button mat-button>Contact</button>
+    <button mat-button>linkedIn</button>
+    <button mat-button>GitHub</button>
+    <button mat-button>Stats</button>
+
+
+
+     <mat-menu #appMenu="matMenu">
+        <button mat-menu-item>Settings</button>
+        <button mat-menu-item>Help</button>
+      </mat-menu>
+      
+      <button mat-icon-button [matMenuTriggerFor]="appMenu">
+        <mat-icon>more_vert</mat-icon>
+    </button>
+</mat-toolbar>
+</div>
