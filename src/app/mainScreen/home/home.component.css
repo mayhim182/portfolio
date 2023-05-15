@@ -1,8 +1,11 @@
-.background {
-    background-image: url('../../../assets/portFolio-min.jpg');
+/* .background {
+    background-image: url('https://img.freepik.com/premium-photo/top-view-dark-stylish-workplace-with-smartphone-office-supplies_67155-2963.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    width: calc(100vw - 18px);;
+  } */
+
+  *{
+    background-color: black;
   }
 
   .mat-dark-theme {
@@ -13,3 +16,15 @@
   .spacer {
     flex: 1 1 auto;
   } 
+
+  .carousel{
+    height: 300px;
+    width: 450px;
+    border-radius: 5px;
+    margin: auto;
+  }
+
+  .carousel-item img{
+    max-height: 200px;
+    width: auto;
+  }
