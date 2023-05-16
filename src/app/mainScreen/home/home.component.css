@@ -8,6 +8,17 @@
     background-color: black;
   }
 
+  .skills{
+    width: 80vw;
+    margin-left: 10vw;
+  }
+
+  .dimension{
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  
   .mat-dark-theme {
     background-color: #303030; /* set the dark theme background color */
     color: #fff; /* set the dark theme text color */

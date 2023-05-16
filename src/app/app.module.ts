@@ -15,6 +15,9 @@ import {MatExpansionModule} from '@angular/material/expansion';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatIconModule} from '@angular/material/icon';
 import {MatSidenavModule} from '@angular/material/sidenav';
+import { trigger,state,style,animate } from '@angular/animations';
+
+
 import { HomeComponent } from './mainScreen/home/home.component';
 
 
