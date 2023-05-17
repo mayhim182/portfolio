@@ -19,13 +19,15 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 
 
 import { HomeComponent } from './mainScreen/home/home.component';
+import { StatsComponent } from './mainScreen/stats/stats.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    HomeComponent
+    HomeComponent,
+    StatsComponent
   ],
   imports: [
     BrowserModule,
