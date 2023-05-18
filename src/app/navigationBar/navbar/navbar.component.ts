@@ -18,4 +18,8 @@ export class NavbarComponent {
     window.location.href=url;
   }
 
+  NavigateToStats(){
+    
+  }
+
 }
