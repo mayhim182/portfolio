@@ -20,6 +20,7 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 
 import { HomeComponent } from './mainScreen/home/home.component';
 import { StatsComponent } from './mainScreen/stats/stats.component';
+import { PersonalProjectsComponent } from './mainScreen/personal-projects/personal-projects.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { StatsComponent } from './mainScreen/stats/stats.component';
     AppComponent,
     NavbarComponent,
     HomeComponent,
-    StatsComponent
+    StatsComponent,
+    PersonalProjectsComponent
   ],
   imports: [
     BrowserModule,
