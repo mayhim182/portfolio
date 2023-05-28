@@ -21,6 +21,9 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import { HomeComponent } from './mainScreen/home/home.component';
 import { StatsComponent } from './mainScreen/stats/stats.component';
 import { PersonalProjectsComponent } from './mainScreen/personal-projects/personal-projects.component';
+import { CodePensComponent } from './codepens/code-pens/code-pens.component';
+import { AnimateComponent } from './animations/animate/animate.component';
+
 
 
 @NgModule({
@@ -29,7 +32,9 @@ import { PersonalProjectsComponent } from './mainScreen/personal-projects/person
     NavbarComponent,
     HomeComponent,
     StatsComponent,
-    PersonalProjectsComponent
+    PersonalProjectsComponent,
+    CodePensComponent,
+    AnimateComponent,
   ],
   imports: [
     BrowserModule,

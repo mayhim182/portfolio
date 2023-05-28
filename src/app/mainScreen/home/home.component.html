@@ -7,12 +7,25 @@
 </div>  
 
 
-<div class="projects">
+<div class="projects" [@scrollAnimation]="currentState">
     &lt;Projects&gt;
-        <iframe src="https://codepen.io/Mayank-Patel-the-scripter/pen/RweOJKZ" frameborder="10px">Flutter Chat App</iframe>
-        <iframe src="https://codepen.io/Mayank-Patel-the-scripter/pen/RweOJKZ" frameborder="10px"></iframe>
-        <iframe src="https://codepen.io/Mayank-Patel-the-scripter/pen/RweOJKZ" frameborder="10px"></iframe>
-        <iframe src="https://codepen.io/Mayank-Patel-the-scripter/pen/RweOJKZ" frameborder="10px"></iframe>
-        <iframe src="https://codepen.io/Mayank-Patel-the-scripter/pen/RweOJKZ" frameborder="10px"></iframe>
+        <div class="column">
+            <button (click)="navigateToUrl('https://github.com/mayhim182/bitcointicker')" >
+                <img src="https://storage.googleapis.com/cms-storage-bucket/c823e53b3a1a7b0d36a9.png" alt="">
+            </button>
+        </div>
+        <div class="column">
+            <iframe src="../../codepens/code-pens/code-pens.component.html" frameborder="">Flutter Chat App</iframe>
+        </div>
+        <div class="column">
+        <iframe src="../../codepens/code-pens/code-pens.component.html" frameborder="">Flutter Chat App</iframe>
+        </div>
+        <div class="column">
+        <iframe src="../../codepens/code-pens/code-pens.component.html" frameborder="">Flutter Chat App</iframe>
+        </div>
+        <div class="column">
+        <iframe src="../../codepens/code-pens/code-pens.component.html" frameborder="">Flutter Chat App</iframe>
+        </div>
+        <iframe [src]="githubRepoUrl" frameborder="0" width="100%" height="600px"></iframe>
     &lt;/Projects&gt;
 </div>

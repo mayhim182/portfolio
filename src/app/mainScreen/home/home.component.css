@@ -40,4 +40,21 @@
     width: auto;
   }
 
+  /* Section for i-frame */
+    .projects{
+      background-color: black;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 5px;
+    }
+
+    .column{
+      padding: 2px;
+      width: 20vw;
+      margin:auto;
+      overflow: hidden;
+    }
+
+  /* end of iframe section */
+
 
