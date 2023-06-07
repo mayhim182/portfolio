@@ -24,6 +24,7 @@ import { StatsComponent } from './mainScreen/stats/stats.component';
 import { PersonalProjectsComponent } from './mainScreen/personal-projects/personal-projects.component';
 import { CodePensComponent } from './codepens/code-pens/code-pens.component';
 import { AnimateComponent } from './animations/animate/animate.component';
+import { SlickCarouselModule } from 'ngx-slick-carousel';
 
 
 
@@ -50,7 +51,8 @@ import { AnimateComponent } from './animations/animate/animate.component';
     MatMenuModule,
     MatIconModule,
     MatSidenavModule,
-    MatTableModule
+    MatTableModule,
+    SlickCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]

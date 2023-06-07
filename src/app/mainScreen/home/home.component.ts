@@ -42,6 +42,17 @@ export class HomeComponent implements OnInit{
   }
   
 
+  listItems:any=['project1','project2','project3'];
+
+  carouselConfig = {
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 2000
+  };
+
 
   currentState='hide';
 
@@ -59,7 +70,7 @@ export class HomeComponent implements OnInit{
   // For github repo to iframe
 githubRepoUrl: SafeResourceUrl = '';
 generateGitHubRepoUrl() {
-  const repoUrl = 'https://github.com/mayhim182/bitcointicker';
+  const repoUrl = 'https://github.com/your-username/your-repo';
   this.githubRepoUrl = this.sanitizer.bypassSecurityTrustResourceUrl(repoUrl);
 }
 

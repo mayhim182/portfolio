@@ -55,6 +55,18 @@
       overflow: hidden;
     }
 
+    .carousel {
+      width: 80%;
+      margin: auto;
+    }
+    
+    .carousel-item {
+      text-align: center;
+      border: 1px solid #ccc;
+      padding: 20px;
+    }
+    
+
   /* end of iframe section */
 
 
