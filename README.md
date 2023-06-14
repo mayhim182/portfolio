@@ -1,9 +1,11 @@
 # Portfolio
 
-visit 
+to visit the portfolio go to --> 
 ```bash
   https://mayhim182.github.io/portfolio/
 ```
+
+note site is still under development.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.1.
 
