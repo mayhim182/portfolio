@@ -11,3 +11,10 @@
   .mat-sidenav-container {
     height: calc(100vh - 64px); /* adjust 64px to match your toolbar height */
   }
+
+  @media only screen and (max-width: 600px){
+  .nav-class{
+      display: grid;
+      color: yellow;
+  }
+}
