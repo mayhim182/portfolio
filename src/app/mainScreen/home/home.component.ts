@@ -42,7 +42,7 @@ export class HomeComponent implements OnInit{
   }
   
 
-  listItems:any=['project1','project2','project3'];
+  listItems:any=['project1','project2','project3','project4','project5'];
 
   carouselConfig = {
     slidesToShow: 1,

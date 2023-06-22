@@ -7,10 +7,10 @@
       />
     </div>
   
-    <div class="text-center" style="display: inline-block; grid-column: 2;">
+    <div class="text-center carousel slide" style="display: inline-block; grid-column: 2;">
       <ngx-slick-carousel class="carousel" [config]="carouselConfig">
         <div *ngFor="let item of listItems">
-          <ng-container style="display: list-item">{{ item }}</ng-container>
+          <ng-container class="carousel-item" style="display: list-item">{{ item }}</ng-container>
         </div>
       </ngx-slick-carousel>
     </div>
