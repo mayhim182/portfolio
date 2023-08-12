@@ -7,9 +7,7 @@ const routes: Routes = [
   {path:'',component:HomeComponent},
   {path:'home',component:HomeComponent},
   {path:'stats',component:StatsComponent},
-  {path:'portfolio',component:HomeComponent},
-  {path:'portfolio/portfolio',component:HomeComponent},
-  {path:'*',component:HomeComponent}
+  {path:'**',component:HomeComponent}
 ];
 
 @NgModule({

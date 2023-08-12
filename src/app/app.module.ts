@@ -25,6 +25,7 @@ import { PersonalProjectsComponent } from './mainScreen/personal-projects/person
 import { CodePensComponent } from './codepens/code-pens/code-pens.component';
 import { AnimateComponent } from './animations/animate/animate.component';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { FileUploadComponent } from './file-upload/file-upload.component';
 
 
 
@@ -37,6 +38,7 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
     PersonalProjectsComponent,
     CodePensComponent,
     AnimateComponent,
+    FileUploadComponent,
   ],
   imports: [
     BrowserModule,
