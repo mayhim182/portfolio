@@ -26,6 +26,7 @@ import { CodePensComponent } from './codepens/code-pens/code-pens.component';
 import { AnimateComponent } from './animations/animate/animate.component';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
 import { FileUploadComponent } from './file-upload/file-upload.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 
@@ -54,7 +55,8 @@ import { FileUploadComponent } from './file-upload/file-upload.component';
     MatIconModule,
     MatSidenavModule,
     MatTableModule,
-    SlickCarouselModule
+    SlickCarouselModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
