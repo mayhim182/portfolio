@@ -50,7 +50,7 @@ export class StatsComponent  implements OnInit{
     }
     setInterval(()=>{
       this.draw(ctx,drops,canvas,letters,fontSize);
-    },33);
+    },50);
   }
 
   draw(ctx: any, drops: any[], canvas: any, letters: any, fontSize: any) {

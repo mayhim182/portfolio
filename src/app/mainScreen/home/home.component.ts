@@ -8,6 +8,7 @@ import {
 } from '@angular/animations';
 import { Router } from '@angular/router';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
+import { MatTooltipModule } from '@angular/material/tooltip';
 
 
 @Component({
