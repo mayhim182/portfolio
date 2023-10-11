@@ -5,11 +5,10 @@ import {
   style,
   animate,
   transition,
-} from '@angular/animations';
+} from '@angular/animations'; 
 import { Router } from '@angular/router';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { MatTooltipModule } from '@angular/material/tooltip';
-
 
 @Component({
   selector: 'app-home',
@@ -35,15 +34,14 @@ import { MatTooltipModule } from '@angular/material/tooltip';
     ]),
   ],
 })
-export class HomeComponent implements OnInit{
+export class HomeComponent implements OnInit {
   constructor(private router: Router, private sanitizer: DomSanitizer) {}
 
   ngOnInit() {
     this.generateGitHubRepoUrl();
   }
-  
 
-  listItems:any=['project1','project2','project3','project4','project5'];
+  listItems: any = ['project1', 'project2', 'project3', 'project4', 'project5'];
 
   carouselConfig = {
     slidesToShow: 1,
@@ -51,16 +49,15 @@ export class HomeComponent implements OnInit{
     dots: true,
     infinite: true,
     autoplay: true,
-    autoplaySpeed: 2000
+    autoplaySpeed: 2000,
   };
 
+  currentState = 'hide';
 
-  currentState='hide';
-
-  @HostListener('window:scroll',[])
-  onWindowScroll(){
-    if(window.pageYOffset>100){
-      this.currentState='show';
+  @HostListener('window:scroll', [])
+  onWindowScroll() {
+    if (window.pageYOffset > 100) {
+      this.currentState = 'show';
     }
   }
 
@@ -69,10 +66,9 @@ export class HomeComponent implements OnInit{
   }
 
   // For github repo to iframe
-githubRepoUrl: SafeResourceUrl = '';
-generateGitHubRepoUrl() {
-  const repoUrl = 'https://github.com/your-username/your-repo';
-  this.githubRepoUrl = this.sanitizer.bypassSecurityTrustResourceUrl(repoUrl);
-}
-
+  githubRepoUrl: SafeResourceUrl = '';
+  generateGitHubRepoUrl() {
+    const repoUrl = 'https://github.com/your-username/your-repo';
+    this.githubRepoUrl = this.sanitizer.bypassSecurityTrustResourceUrl(repoUrl);
+  }
 }
